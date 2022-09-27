@@ -14,3 +14,28 @@ header {
 .links-conteiner a:hover {
   background-color: #e62721;
 }
+
+@media (max-width: 768px) {
+  .links-conteiner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+    font-size: 2.5rem;
+    background-color: #000;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.1s;
+    z-index: 1;
+  }
+}
+
+.menu-burger-container.active ~ .links-conteiner {
+  opacity: 1;
+  transform: translateX(0%);
+}

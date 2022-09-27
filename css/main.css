@@ -79,3 +79,28 @@ main {
   border-color: #e62721;
   transition: 0.1s;
 }
+
+@media (max-width: 768px) {
+  .content-conteiner {
+    justify-content: flex-end;
+    margin-bottom: 50px;
+  }
+  .content-conteiner h1 {
+    font-size: 4rem;
+  }
+  .content-conteiner h1 span {
+    font-size: 1.5rem;
+    transform: translateY(10px);
+  }
+
+  .movie-title {
+    font-size: 1.45rem;
+    transform: translateY(0px);
+  }
+  .movie-text {
+    display: none;
+  }
+  .social-conteiner {
+    display: none;
+  }
+}
