@@ -35,7 +35,7 @@ header {
   }
 }
 
-.menu-burger-container.active ~ .links-conteiner {
+.menu-burger-conteiner.active ~ .links-conteiner {
   opacity: 1;
   transform: translateX(0%);
 }
