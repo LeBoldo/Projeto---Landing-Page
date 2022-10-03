@@ -1,6 +1,6 @@
 # Projeto - Landing Page
 
-![preview](./Landing-page-Doutor-Estranho-imagens/landing-page.png)
+![preview](./.github/landing-page.png)
 
 > Doutor Estranho 2
 
@@ -17,11 +17,11 @@ Projeto construido como aplicação de estudo, utilizando um projeto do figma co
 
 ## Visualizando o Projeto - Pagina Mobile
 
-![preview](./Landing-page-Doutor-Estranho-imagens/landing-page-mobile.png)
+![preview](./.github/landing-page-mobile.png)
 
 ## Visualizando o Projeto - Menu Mobile
 
-![preview](./Landing-page-Doutor-Estranho-imagens/menu-mobile.png)
+![preview](./.github/menu-mobile.png)
 
 ## Contato
 
